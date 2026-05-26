@@ -257,3 +257,26 @@ section h2 {
   font-style: normal; 
 }
 
+footer {
+  background-color: var(--clr-primary); /* Fundo vermelho */
+  display: flex;
+  justify-content: center; /* Centraliza na horizontal */
+  align-items: center;     /* Centraliza na vertical */
+  padding-block: 1.5rem;   /* Espaçamento em cima e embaixo */
+}
+
+footer a {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;             /* Distância entre o texto e a imagem */
+  color: var(--clr-black);
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+footer a img {
+  height: 24px; /* Ele limita a altura da logo do rodapé para acompanhar a linha do texto */
+}
+
+
