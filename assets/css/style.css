@@ -70,6 +70,22 @@ section h2 {
 
 }
 
+.base-list {
+  display: flex;
+  list-style: none; /* Remove as bolinhas padrão da lista */
+  margin: 0;
+  padding: 0;
+}
+
+
+.base-list li {
+  background-color: var(--cor-primaria); 
+  font-size: 1.125rem; 
+  font-weight: 600;
+  line-height: 150%;
+  border-radius: 4px; 
+}
+
 /*Home*/
 
 #home{
