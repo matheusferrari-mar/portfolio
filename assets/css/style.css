@@ -78,17 +78,47 @@ header h1{
     line-height: 150%px;
     margin:0px
 }
-.home-cta>a{
+.btn{
     background-color: var(--clr-primary);
     width: fit-content;
     padding:0.75rem,1rem;
     border-radius: 6px;
     font-size: 14px;
     color:var(--clr-white);
-    text-decoration: none;
+    text-decoration: no ne;
     transition: scale 150ms;
 }
-.home-cta > a:hover{
+.btn:hover{
     transform: scale(1.01);
 
+}
+#sobre {
+  background-color: #000; /* Fundo preto */
+  color: #FFF;            /* Força o texto a ficar branco */
+  padding: 2rem 1.5rem;   /* 32px em cima/baixo e 24px nas laterais */
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+#sobre h2 {
+  font-size: 1.5rem;      /* 24px */
+  font-weight: 500;
+  line-height: 150%;
+  text-transform: uppercase; /* Deixa o texto todo em caixa alta */
+}
+
+#sobre p {
+  font-size: 1rem;        /* 16px */
+  line-height: 150%;
+}
+
+.sobre-links {
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+}
+
+#sobre img {
+  border-radius: 8px;     /* Aumentado no final do vídeo para esconder a bordinha branca da imagem zoada do Figma 😂 */
 }
