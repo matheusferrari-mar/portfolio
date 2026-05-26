@@ -258,17 +258,17 @@ section h2 {
 }
 
 footer {
-  background-color: var(--clr-primary); /* Fundo vermelho */
+  background-color: var(--clr-primary); 
   display: flex;
-  justify-content: center; /* Centraliza na horizontal */
-  align-items: center;     /* Centraliza na vertical */
-  padding-block: 1.5rem;   /* Espaçamento em cima e embaixo */
+  justify-content: center; 
+  align-items: center;     
+  padding-block: 1.5rem;   
 }
 
 footer a {
   display: flex;
   align-items: center;
-  gap: 0.5rem;             /* Distância entre o texto e a imagem */
+  gap: 0.5rem;             
   color: var(--clr-black);
   text-decoration: none;
   font-size: 16px;
@@ -276,7 +276,7 @@ footer a {
 }
 
 footer a img {
-  height: 24px; /* Ele limita a altura da logo do rodapé para acompanhar a linha do texto */
+  height: 24px; 
 }
 
 
